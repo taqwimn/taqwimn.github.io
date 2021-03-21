@@ -1,0 +1,55 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.jumbotron {
+  background-color: #b1b1b1;
+  padding-top: 6rem;
+}
+
+#home,
+#about,
+#projects {
+  min-height: 650px;
+}
+
+#contacts {
+  min-height: 600px;
+}
+
+#projects {
+  background-color: #b1b1b1;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.figure img:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.pic {
+  opacity: 1;
+}
+
+.name,
+.figure,
+#footer,
+#about_header,
+#hello,
+#description,
+#several,
+#projects_header,
+#card_projects,
+#contacts_header,
+#get_in_touch,
+#social_media {
+  opacity: 0;
+}
